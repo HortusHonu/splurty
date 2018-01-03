@@ -60,6 +60,11 @@ h2 {
 	font-family: 'rubikblack_italic';
 }
 
+h2 span {
+	color: #8c8c8c;
+	font-family: 'rubikblack';
+}
+
 .next-quote {
 	color:#f84342;
 	font-family: 'rubikblack';
@@ -80,3 +85,18 @@ h2 {
 .about {
 	font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus ROman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia serif;	
 }
+
+@media (max-width: 750px) {
+	.footer-blurb {
+		text-align:left;
+	}
+}
+
+.modal {
+	font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus ROman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia serif;
+}
+
+::selection {
+	background-color: #f84342;
+}
+
