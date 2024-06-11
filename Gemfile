@@ -29,7 +29,7 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'popper_js', '~> 1.11.1'
 gem 'bootstrap', '4.0.0.alpha6'
-
+gem "nokogiri", ">= 1.16.5"
 gem "simple_form", ">= 5.0.0"
 
 source 'https://rails-assets.org' do
