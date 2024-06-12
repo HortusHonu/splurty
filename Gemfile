@@ -29,8 +29,8 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
-gem 'popper_js', '~> 1.11.1'
-gem 'bootstrap', '4.0.0.alpha6'
+gem 'popper_js', '<= 2.0'
+gem 'bootstrap', '4.3.1'
 gem "nokogiri", ">= 1.16.5"
 gem "simple_form", ">= 5.0.0"
 
